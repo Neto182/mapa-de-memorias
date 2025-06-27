@@ -14,6 +14,8 @@ Funcionalidades
     🔒 Anonimato Puro: A experiência foi desenhada para ser livre de pressão social. Sem perfis, sem seguidores. Apenas a pureza da partilha.
 
     ✨ Design Imersivo: Uma interface escura e minimalista, criada para focar na descoberta e na reflexão.
+![main2](https://github.com/user-attachments/assets/7d8901e6-b078-40b2-ab55-61e8cfea4225)
+![main](https://github.com/user-attachments/assets/a5a66bf8-67fd-4009-b018-46b738f8d165)
 
 ### Tecnologias Utilizadas
 
