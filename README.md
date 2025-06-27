@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+## Sobre o ChronoMap
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+E se cada lugar guardasse as histórias que testemunhou? E se pudéssemos sentir os ecos das alegrias, saudades e momentos que outras pessoas viveram exatamente onde estamos agora?
 
-## Get started
+ChronoMap é um experimento social. É um mapa-múndi partilhado onde qualquer pessoa pode deixar uma memória anônima, um pensamento ou um sentimento atrelado a um ponto geográfico. Não há perfis, não há comentários, não há "gostos". Apenas o lugar, o tempo e a voz humana.
 
-1. Install dependencies
+É um convite para abrandar. Para caminhar pela sua cidade não apenas olhando para os edifícios, mas sentindo as camadas de vida que existem neles. Para se conectar, de forma silenciosa e profunda, com estranhos de todo o mundo através da nossa experiência mais partilhada: a memória.
+Funcionalidades
 
-   ```bash
-   npm install
-   ```
+    📍 Explore um Mundo de Ecos: Navegue por um mapa estilizado e descubra pontos de luz, cada um contendo uma memória deixada por alguém.
 
-2. Start the app
+    ✍️ Deixe a Sua Marca: Pressione e segure em qualquer lugar do mundo para deixar o seu próprio eco anônimo, a sua história para o futuro.
 
-   ```bash
-   npx expo start
-   ```
+    🔒 Anonimato Puro: A experiência foi desenhada para ser livre de pressão social. Sem perfis, sem seguidores. Apenas a pureza da partilha.
 
-In the output, you'll find options to open the app in a
+    ✨ Design Imersivo: Uma interface escura e minimalista, criada para focar na descoberta e na reflexão.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Tecnologias Utilizadas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+    Frontend: React Native com Expo
 
-## Get a fresh project
+    Backend & Base de Dados: Supabase
 
-When you're ready, run:
+    Navegação: Expo Router
 
-```bash
-npm run reset-project
-```
+    Mapas: React Native Maps
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+    UI: React Native Bottom Sheet
 
-## Learn more
+Junte-se à Jornada
 
-To learn more about developing your project with Expo, look at the following resources:
+Cada ponto de luz neste mapa é um testamento de que estivemos aqui. Que amámos, que sentimos, que vivemos. Ao deixar o seu eco, você não está apenas a partilhar uma história; está a ajudar a construir um monumento invisível à experiência humana.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Obrigado por fazer parte disto.
