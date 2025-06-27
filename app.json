@@ -1,42 +1,48 @@
 {
   "expo": {
-    "name": "mapa-de-memorias",
+    "name": "ChronoMap",
     "slug": "mapa-de-memorias",
+    "scheme": "chronomap",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "mapadememorias",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "icon": "./assets/images/icon.jpg",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E222B"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.netoapps.chronomap"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#1E222B"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.seunome.chronomap",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
       [
-        "expo-splash-screen",
+        "expo-location",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "locationAlwaysAndWhenInUsePermission": "A sua localização é usada para mostrar memórias próximas a si e para lhe permitir fixar as suas próprias memórias no mapa."
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true
+    "owner": "neto182",
+    "extra": {
+      "eas": {
+        "projectId": "bf4b9716-cfea-4002-a12c-5d529dca89ce"
+      }
     }
   }
 }
